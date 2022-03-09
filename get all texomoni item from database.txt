@@ -1,0 +1,24 @@
+<?php
+$args = ['post_type' => 'online-registration',];
+$query = new WP_Query($args);
+?>
+        <table class="member-list-tbl">
+        <tr>
+            <th>আইডি নং</th>
+            <th>নাম</th>
+            <th>পিতা/স্বামী</th>
+        </tr>
+		<?php if($query->have_posts()):
+			$i = 0;
+   			 ?>
+   		 <?php while($query->have_posts()) : $query->the_post(); 
+			$i++;
+       		  ?>
+        <tr>
+            <td><?php echo $i; ?></td>
+            <td><?php the_title(); ?></td>
+            <td><?php the_field('father_husband'); ?></td>
+        </tr>
+	<?php endwhile;?>
+	<?php endif;?>	
+    </table>

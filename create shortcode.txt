@@ -1,0 +1,6 @@
+function add_new_nav() {
+	ob_start();
+	get_template_part('includes/add', 'nav');
+	return ob_get_clean();
+}
+add_shortcode('add_new_nav', 'add_new_nav');
