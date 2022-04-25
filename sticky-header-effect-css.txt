@@ -1,0 +1,27 @@
+make 2 duplicate header and add this css on custom css
+
+
+/* Custom header */
+header{
+	margin-bottom: -78px
+}
+.header-2 {
+	transform: translatey(-300px);
+    -webkit-transform: translatey(-300px);
+    -moz-transform: translatey(-300px);
+    -ms-transform: translatey(-300px);
+    -o-transform: translatey(-300px);
+    transition: all .5s ease !important;
+    -webkit-transition: all .5s ease !important;
+    -moz-transition: all .5s ease !important;
+    -ms-transition: all .5s ease !important;
+    -o-transition: all .5s ease !important;
+}
+
+.elementor-sticky--effects.header-2 {
+	transform: translatey(0px);
+    -webkit-transform: translatey(0px);
+    -moz-transform: translatey(0px);
+    -ms-transform: translatey(0px);
+    -o-transform: translatey(0px);
+}

